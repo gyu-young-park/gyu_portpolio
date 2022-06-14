@@ -29,7 +29,6 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Project</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#History">History</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
             </div>
@@ -46,13 +45,14 @@
                     <div class="subheading mb-5">
                         <a href="mailto:gyoue200125@gmail.com">gyoue200125@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">한국항공대 소프트웨어학과에 2017년에 입학하고 처음으로 프로그래밍을 접하였습니다. 
-                        항상 성장에 목말라있고, 소프트웨어 기술들에 관해 관심이 많아 이런저런 공부를 많이 했습니다.
-                        회사 프로젝트 경험으로는 회사 연계 프로젝트 2회, 4개월 간의 ict인턴십, 삼성전자 대학생 공채 인턴십 경험이 있습니다.
-                    수상 경력으로는 6개 대학 프로그래밍 대회 본선 진출, 교내 소프트웨어 개발 공모전 4회 수상하였습니다.
+                    <p class="lead mb-5">
+                        <!-- 회사 경험으로는 회사 연계 프로젝트 2회, 2번의 인턴 경험, 현재는 삼성전자 네트워크 사업부에 재직 중입니다.
+                    수상 경력으로는 6개 대학 프로그래밍 대회 본선 진출, 한화생명 블록체인 해커톤 본선 진출, 교내 소프트웨어 개발 공모전 4회 수상하였습니다.
                     사회 경험으로는 호프집 알바 3개월, 냉면집 알바 3개월, 학교 행정실 근무 2개월 ,전산실 근무 2년을 했습니다.
                 그 밖에 학교 생활로는 학점 4.24, AI Planning 연구소 학부연구생 4개월, 국가 이공계 선정이 있습니다. 
-                현재는 삼성전자 네트워크 사업부에서 근무 중이며, 통신 쪽 도메인을 공부하고 있습니다.
+                현재는 삼성전자 네트워크 사업부에서 근무 중이며, 통신 쪽 도메인을 공부하고 있습니다. -->
+                항상 성장에 목말라있고, 소프트웨어 기술들에 관해 관심이 많아 이런저런 공부를 많이 했습니다. golang, docker, kubernetes에 관심이 많습니다.
+                최근 1년간은 golang에 빠져있어 go로 blockchain, chat, server, MSA 등 여러 프로젝트를 개발해보고 있습니다.  
                 기술적인 성장 외에도 인격적인 성장을 추구하며, 같이 일하고 싶은 성숙한 사람이 되기위해 항상 겸손하게 살고있습니다. 
                 </p>
                     <div class="social-icons">
@@ -109,7 +109,6 @@
                                 Planning 결과를 받아 클라이언트 화면에 렌더링하는 과정에서 일정 시간이 흐르면 브라우저가 멈춰버리는 현상이 발생했었습니다. 해당 문제를 해결하기 위해 사용되었던 jquery의 animate 함수의 내부 로직을 분석하였고, animate 함수 내부의 queue가 포화가 되지 않도록 더블 버퍼링을 구현했습니다. 그러나 사실 animate 함수의 문제가 아니였었고, Planning 결과를 받아오는 polling이 1초에 50번이 넘는 횟수로 진행되고 있었기 때문에 브라우저의 ui thread가 죽어버리는 문제가 발생했었던 것이었습니다. 이후 서버 개발자와의 협의를 통해 polling을 1초에 한 번으로 줄임으로써 문제를 해결하였습니다.
                             </div>
                             <br>
-                            *해당 프로젝트에 관한 이미지는 연구실에서 거부하여 올릴 수 없었습니다.
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2019/01/16~2019/04/07</span></div>
                     </div>
@@ -138,7 +137,6 @@
                             <br>
                             <a class="btn btn-primary" href="https://www.youtube.com/watch?v=CdyIP20YiBs">동영상 보기</a>
                             <br>
-                            * 해당 동영상은 전체 프로그램이 아닌, 제가 구현한 부분을 회사의 허락을 맡고 올린 것 입니다.
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2019/03/04~2019/06/22</span></div>
                     </div>
@@ -194,7 +192,7 @@
                             <br>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project_ratio">Image</button>
                             <br>
-                            * 12월에 개발이 끝난 후, 레이시오 사의 요청에 따라 github에 있는 코드를 10월 달 버전으로 롤백하였습니다. 따라서 Image또한 10월 달 버전입니다.
+                            * 개발이 끝난 후, 회사의 요청에 따라 코드를 10월 달 버전으로 롤백하였습니다. 
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2019/09/09~2019/12/23</span></div>
                     </div>
@@ -249,7 +247,6 @@
                                 Spring AMQP는 Spring의 autoconfiguration 기능과 IoC컨테이너 기능 등을 이용하여 RabbitMQ java의 구현을 추상화시킨 라이브러리입니다. Spring AMQP는 RabbitTemplate 인터페이스로 각종 RabbitMQ 설정을 할 수 있지만, 시스템 하부적인 기능들을 사용하기에는 한계가 있습니다. 가령 connection error로 인한 재연결 구현은 RabbitMQ Java에서는 쉽게 가능하지만, Spring AMQP의 인터페이스인 RabbitTemplate에서는 사용할 수 없습니다. 저는 이러한 문제를 해결하기 위하여 Spring AMQP의 내부 구현을 분석하고, 필요한 부분을 override 하는 방법을 사용했습니다. 가령 Spring AMQP의 autoconfiguration 부분에서 connection 문제를 해결할 수 있는 코드 부분을 configuration으로 가져와 override 하도록 만든 것 입니다.
                             </div>
                             <br>
-                            * 해당 프로젝트는 노보네트웍스의 Gitlab을 사용했기 때문에 제 Github에 없습니다.
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2020/03/16~2020/04/16</span></div>
                     </div>
@@ -279,9 +276,6 @@
                             이유는 장비가 움직였다는 히스토리 데이터만 바뀌었는데 이 데이터와 상관없는 컴포넌트들 또한 다시 리렌더링되었던 것 이였습니다. React 최적화 기법에 대해 알아보기 시작하였고, 불필요한 props들을 줄이고 useMemo, useCallback 등을 사용하였습니다. 또한 화면에 너무 많은 데이터들을 시각화를 해주었으므로 대거 컴포넌트들을 제거했습니다.
                             그 결과 1초에 50프레임이 나왔고, 목표로 했던 30프레임 보다 높게나와 좋은 평가를 받았습니다. <br>
                             <br>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project_5g">Image</button>
-                            <br>
-                            * 해당 프로젝트는 노보네트웍스의 Gitlab을 사용했기 때문에 제 Github에 없습니다.
                             </div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2020/04/16~2020/06/26</span></div>
@@ -306,9 +300,6 @@
                                     네트워크 시스템 설정 파일들을 입력으로 받게되는데, 해당 파일에서 테스팅에 필요한 정보들을 추출하기위해 python을 사용하였습니다. 
                                     데스크탑 프로그램으로 윈도우와 우분투에서 작동 가능한 프로그램을 요구하여, Electron으로 개발을 하였고 GUI 개발은 jquery와 bootstrap을 이용하여 개발  시간을 절약했습니다.
                                 <p></p>
-                                <br>
-                                <br>
-                                * 해당 프로젝트는 회사에서 프로그램 공개를 거부했습니다.
                             </div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2020/07/30~2020/08/28</span></div>
@@ -343,7 +334,7 @@
                                 <br>
                             <br>
                             <a class="btn btn-primary" href="https://youtu.be/tnxIzn5vjOE">동영상 보기</a>
-                            <a class="btn btn-primary" href="https://github.com/gyu-young-park/WebToonPlatforn_DS">깃허브</a>
+                            <a class="btn btn-primary" href="https://github.com/gyu-young-park/WebToonPlatforn_DS">github</a>
                             <br>
                                 
                             </div>
@@ -376,12 +367,48 @@
                                 <br>
                             <br>
                             <a class="btn btn-primary" href="https://www.youtube.com/watch?v=MzxnIA9rVHk">동영상 보기</a>
-                            <a class="btn btn-primary" href="https://github.com/gyu-young-park/selfie2webtoon">깃허브</a>
+                            <a class="btn btn-primary" href="https://github.com/gyu-young-park/selfie2webtoon">github</a>
                             <br>
                                 
                             </div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2020/10/23~2020/12/04</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ToonPlus!</h3>
+                            <div class="subheading mb-3">한화생명 블록체인 해커톤</div>
+                            <h5>사용 기술 : Html, css, React, React-hooks, etherjs, Typescript, Solidity, git</h5>
+                            <div>
+                                <h5>1, 프로젝트 소개</h5>
+                            - '뮤직카우'와 같이 웹툰이라는 가상 자산에 투자할 수 있는 블록체인 플랫폼을 구축한다.<br>
+                            - 작가의 NFT 발행부터 NFT 드랍 서비스를 구축하고 토큰의 활용성 확대를 위한 유니스왑 지원을 할 수 있도록 한다.<br>
+                            </div>
+                            <p></p>
+                            <div>
+                                <h5>2, 역할 및 내용</h5>
+                                멘토님, 저와 친구 총 3명으로 구성되었으며 멘토님으로 'NFT Bank 김민수 대표님'께서 도와주셨습니다. 저는 기획과 프론트 엔드를 담당하였습니다. <br>
+                                로그인 페이지, 웹툰 가상자산 구매 페이지, chart 페이지 ,NFT 등록, 드랍 페이지 등을 구현하였습니다. <br>
+                                GraphQL을 통한 uniswap API를 활용하여 토큰 swap을 기능을 구현하였습니다.
+                            </div>
+                            <p></p>
+                            <div>
+                                <h5>3, 문제</h5>
+                                 가장 큰 문제는 비지니스 모델이었습니다. '웹툰'의 저작권이나 소유권의 일부를 판매하는 것이 아닌 가상자산으로서 투자하여 
+                                웹툰이 인기를 얻으면 독자와 작가 모두 이득을 볼 수 있도록 하여 작가와 독자의 새로운 수입 모델을 만들어주려고 하였습니다.<br>
+                                그러나, 심사위원 분들의 평가 중 '굳이 블록체인으로 해야하는가?' 라는 질문에 대해서 명확하게 답변도 못하였고, 이 부분에 대해서 저희도 크게 고민하였지만
+                                명확한 답을 생각하지 못하였습니다. <br>
+                                또한, 개발을 진행하면서 블록체인에 관한 이해도와 이를 활용한 Dapp 개발에 대해 이해도가 부족했다는 사실을 깨닫고 다시 블록체인 산업에 대해 공부도 하고, 기술도 
+                                공부하는 시간을 갖게 되었습니다.                                
+                                <br>
+                            <br>
+                            <a class="btn btn-primary" href="https://www.youtube.com/watch?v=NEveFzVfiXU&list=PLcQsoPfbeJAEVRTvKAzTqM6h5DSA_2p3n&index=5">동영상 보기</a>
+                            <a class="btn btn-primary" href="https://github.com/gyu-young-park/ToonPlus">github</a>
+                            <br>
+                                
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2021/12/17~2021/12/19</span></div>
                     </div>
                 </div>
             </section>
@@ -420,8 +447,9 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">삼성전자 네트워크 사업부</h3>
-                            <div class="subheading mb-3">OAM 개발 그룹</div>
-                            <p>현재(2021/03/14)는 통신과 알고리즘 교육 중에 있습니다. </p>
+                            <div class="subheading mb-3">OAM S/W 개발 그룹</div>
+                            <p>FPGA controller 개발 중에 있으며 CPRI, ECPRI 등 FPGA configuration data를 제어하는 팀에서 프로젝트를 진행 중 입니다. 
+                                22년에는 Ecpri FPGA configuration data 제어 기능, initial sequence 기능 개발을 완료하였습니다. </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2021 01월3일 ~ 현재</span></div>
                     </div>
@@ -440,6 +468,7 @@
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item">C(B)</li>
                         <li class="list-inline-item">C++(B)</li>
+                        <li class="list-inline-item">GO(B)</li>
                         <li class="list-inline-item">Python(B)</li>
                         <li class="list-inline-item">Java(B)</li>
                         <li class="list-inline-item">Kotlin(C)</li>
@@ -460,8 +489,10 @@
                     </ul>
                     <h3 class="mb-1">backend</h3>
                     <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">GO-Gin,HTTP(B)</li>
                         <li class="list-inline-item">NodeJS-Express(B)</li>
                         <li class="list-inline-item">NodeJS-Electron(C)</li>
+                        <li class="list-inline-item">NodeJS-Nestjs(C)</li>
                         <li class="list-inline-item">Spring(C)</li>
                         <li class="list-inline-item">Django(C)</li>
                         <li class="list-inline-item">MYSQL(C)</li>
@@ -502,16 +533,6 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>분야에 상관없이 소프트웨어 기술이라면 모두 관심있고 배우고 싶습니다. 그 중에서도 가장 잘하고 좋아하는 분야는 웹 개발 분야입니다. 백엔드와 프론트엔드 기술 모두 관심있으며 특히 React에 제일 관심이 많았습니다. 현재는
-                        회사 업무에 집중하고 있어 C언어 와 통신쪽 도메인 (LTE, NR) 공부에 집중하고 있습니다. </p>
-                    <p class="mb-0">기술적인 측면 이외에 게임에 관심이 많습니다. 특히 롤을 좋아하고 LCK의 모든 팀을 좋아합니다. 기타치는 것을 좋아하며, 쉬는 날에는 맛집 탐방하는 것을 좋아합니다.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
@@ -532,10 +553,6 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             금상(2등) - 한국항공대 인공지능/블록체인 경진 대회/블록체인 분야 (2019/10/26)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
-                            Opic IL 취득
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
@@ -564,6 +581,10 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
                             삼성전자 알고리즘 등급 PRO취득(B형)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+                            한화생명 블록체인 해커톤 최종 8팀 진출
                         </li>
                     </ul>
                 </div>
